@@ -1,0 +1,191 @@
+*{
+  font-family: 'Nunito', sans-serif;
+}
+
+.link{
+  text-decoration: none;
+  color: rgb(196, 169, 169);
+}
+
+.link1{
+  text-decoration: none;
+}
+
+.navImage{
+  height: 45px;
+  width: 45px;
+}
+
+.image{
+    height: 90vh;
+    width: 100%;
+}
+
+.imageTitle{
+  font-weight: 900;
+  color: #ffe4e4;
+ 
+}
+
+.imagePara{
+  font-weight: 700;
+  color: #dad7d7;
+ 
+}
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    margin: 10px 25px 55px 25px;
+    grid-template-columns: 500px 350px 400px;
+    grid-template-rows: 300px 250px 300px ;
+    background-color: #fff;
+    color: #444;
+  }
+
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+
+  .a {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    background-image: url(https://www.gtholidays.in/wp-content/uploads/2023/12/Tour-Packages-Bali.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .a:hover{
+    transform: scale(1.05);
+  }
+
+  .b {
+    grid-column: 3 ;
+    grid-row: 1 / 3;
+    background-image: url(https://www.gtholidays.in/wp-content/uploads/2019/11/Taroko-tour-package-870x555.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .b:hover{
+    transform: scale(1.05);
+  }
+  .c {
+    grid-column: 1 ;
+    grid-row: 2 ;
+    background-image: url(https://www.gtholidays.in/wp-content/uploads/2019/11/Great-Palace-Thailand-680x500.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .c:hover{
+    transform: scale(1.05);
+  }
+
+  .d {
+    grid-column: 2;
+    grid-row: 2;
+    background-image: url(https://www.gtholidays.in/wp-content/uploads/2019/11/Kyoto-870x555.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .d:hover{
+    transform: scale(1.05);
+  }
+
+  .e{
+    grid-column: 1 / 4;
+    background-image: url(https://wallpaperaccess.com/full/408087.jpg);
+    grid-row: 3;
+    transition: transform 0.3s ease-in-out;
+    background-size: cover;
+  }
+
+  .e:hover{
+    transform: scale(1.05);
+  }
+
+  .button{
+    border: none;
+    border-radius: 0%;
+  }
+
+  .card1{
+    border-radius: 25px;
+    width: 22%;
+    padding: 0 40px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .cardImage{
+    height: 80px;
+    width: 80px;
+    margin: 20% 30%;
+  }
+
+  .cards{
+    margin: 80px 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card1:hover{
+    box-shadow: 1px 8px 20px grey;
+    -webkit-transition:  box-shadow .6s ease-in;
+  }
+
+
+  .banner{
+    text-align: center;
+    background-color: rgb(133, 127, 127);
+    height: 45vh;
+    margin: 50px 0;
+    color: white;
+   background-size: cover;
+   opacity: 0.8;
+    background-image: url(https://wallpaperaccess.com/full/3275861.jpg);
+  }
+
+  .bannerContents{
+    padding-top: 100px;
+  }
+
+  .bannerContents h3{
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
+  .bannerContents p{
+    font-size: 30px;
+  }
+
+  .welcomeContent{
+    text-align: center;
+    margin: 0 10%;
+    font-family: 'Jost', sans-serif;
+  }
+
+ 
+  .gallery{
+    text-align: center;
+    font-weight: 900;
+    margin: 40px 0;
+  }

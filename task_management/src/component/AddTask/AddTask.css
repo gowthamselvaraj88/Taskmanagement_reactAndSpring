@@ -1,0 +1,35 @@
+.card{
+    max-width: 40%;
+    margin: 5% 25% 0 25%;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.input-title{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.input{
+    margin: 20px;
+    text-align: center;
+}
+
+.input-1{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    text-align: center;
+}
+
+.input-1-field-1{
+    margin: 0 10px 0 0;
+    width: 100%;
+}
+
+.input-1-field-2{
+    margin: 0 0 0 10px;
+}
